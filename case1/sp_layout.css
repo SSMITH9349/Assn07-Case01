@@ -25,7 +25,11 @@ body{
 img{
    display:inline-block;
 }
+div#body{
+   display:grid;
+   grid-template-columns: 1fr,1fr,1fr,1fr;
 
+}
 
 /* Row Styles */
 
