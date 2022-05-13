@@ -22,7 +22,9 @@ body{
    min-height: 100%;
    text-align: center;
 }
-
+img{
+   display:inline-block;
+}
 
 
 /* Row Styles */
