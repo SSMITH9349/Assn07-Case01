@@ -31,6 +31,10 @@ div#outer{
    display:grid;
    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
+aside{
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
 
 
 /* Row Styles */
@@ -71,3 +75,7 @@ body> header> img {
 
 
 /* Footer Styles */
+footer{
+   grid-column-start: 1;
+   grid-column-end: -1;
+}
