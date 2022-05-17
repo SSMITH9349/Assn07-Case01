@@ -16,23 +16,22 @@
 /* Window and Body Styles */
 body{
    height: 100%;
-   max-width: 960px;
-   min-width: 640px;
    width:95%;
    min-height: 100%;
    text-align: center;
+   min-width: 640px;
+   max-width: 960px;
+   ;
 }
 img{
    display:inline-block;
 }
-div#body{
-   display:grid;
-   grid-template-columns: 1fr,1fr,1fr,1fr;
 
+div#outer{
+   display:grid;
+   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
-body > heder {
-   grid-column: 1/-1;
-}
+
 
 /* Row Styles */
 
@@ -41,8 +40,11 @@ body > heder {
 
 
 /* Page Header Styles */
-
-
+body> header> img {
+   grid-column-start:1;
+   grid-column-end: 4;
+   width: 100%;
+}
 
 
 
