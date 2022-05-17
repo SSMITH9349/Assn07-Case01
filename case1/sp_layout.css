@@ -71,3 +71,6 @@ body> header> img {
 
 
 /* Footer Styles */
+footer{
+   grid-template-columns: span 4;
+}
