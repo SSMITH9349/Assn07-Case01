@@ -54,9 +54,15 @@ body> header> img {
 
 
 /* Horizontal Navigation List Styles */
+nav.horizontal{
+   grid-column-start: span 4;
+}
+nav.horizontal > li {
+   display:block;
+   width:12.5%;
+   float:left;
 
-
-
+}
 
 /* Topics Styles */
 
