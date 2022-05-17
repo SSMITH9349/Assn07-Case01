@@ -27,8 +27,10 @@ img{
    display:inline-block;
 }
 
-
-
+div#outer{
+   display:grid;
+   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
 
 
 /* Row Styles */
@@ -38,8 +40,11 @@ img{
 
 
 /* Page Header Styles */
-
-
+body> header {
+   grid-column-start:1;
+   grid-column-end: 4;
+   
+}
 
 
 
