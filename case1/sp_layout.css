@@ -104,15 +104,15 @@ ul#topics li img{
 /* HR Styles */
 hr{
    width:50%;
-   
+
 }
 
 
 
 /* Customer Comment Styles */
-aside.comments{
+#commments{
    width:75%;
-   padding-bottom: 30px;
+   margin: 40px auto;
 }
 comments> li::nth-last-of-type(odd){
    justify-self: right;
