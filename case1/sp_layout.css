@@ -120,6 +120,13 @@ hr{
    float: left;
    margin-bottom: 30px;
 }
+#comments li img{
+   display:block;
+   width:20%;
+   float: left;
+   margin-left: 5%;
+   margin-right: 5%;
+}
 
 
 /* Footer Styles */
