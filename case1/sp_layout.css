@@ -46,7 +46,7 @@ aside{
 /* Page Header Styles */
 body> header> img {
    grid-column-start:1;
-   grid-column-end: 4;
+   grid-column-end: 3;
    width: 100%;
 }
 
@@ -54,15 +54,17 @@ body> header> img {
 
 
 /* Horizontal Navigation List Styles */
-nav.horizontal{
-   grid-column-start: span 4;
-}
-nav.horizontal > li {
-   display:block;
+body > nav.horizontal > ul> li {
    width:12.5%;
-   float:left;
+}
+
+nav.horizontal li{
+   display: block;
+   float: left;
+}
 
 }
+
 
 /* Topics Styles */
 
