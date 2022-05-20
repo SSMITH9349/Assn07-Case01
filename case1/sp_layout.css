@@ -40,14 +40,14 @@ header, ul, nav,li, a{
    display:table;
 }
 
-}
+
 
 
 /* Page Header Styles */
-body> header> img {
-   grid-column-start:1;
-   grid-column-end: 3;
-   width: 100%;
+header> img{
+   display:block;
+   width:70%;
+   float:left;
 }
 
 
