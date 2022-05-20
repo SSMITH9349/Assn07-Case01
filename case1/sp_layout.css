@@ -131,6 +131,7 @@ hr{
 
 /* Footer Styles */
 footer{
-   grid-column-start: 1;
-   grid-column-end: -1;
+   display:block;
+   float:left;
+   width:100%;
 }
