@@ -49,7 +49,15 @@ header> img{
    width:70%;
    float:left;
 }
-
+header nav ul {
+   float:left;
+   padding-left:2%;
+   padding-right:2%;
+}
+header nav ul a{
+   display:block;
+   width:100%;
+}
 
 
 
