@@ -21,35 +21,43 @@ body{
    text-align: center;
    min-width: 640px;
    max-width: 960px;
-   ;
+   
 }
-img{
-   display:inline-block;
+header, ul, nav,li, a{
+   box-sizing: border-box;
+
 }
 
-div#outer{
-   display:grid;
-   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-}
-aside{
-   grid-column-start: 1;
-   grid-column-end: 2;
-}
 
 
 /* Row Styles */
-
+.row{
+   clear:both;
+}
+.row::after{
+   clear:both;
+   content:"";
+   display:table;
+}
 
 
 
 
 /* Page Header Styles */
-body> header> img {
-   grid-column-start:1;
-   grid-column-end: 3;
-   width: 100%;
+header> img{
+   display:block;
+   width:70%;
+   float:left;
 }
-
+header nav ul {
+   float:left;
+   padding-left:2%;
+   padding-right:2%;
+}
+header nav ul a{
+   display:block;
+   width:100%;
+}
 
 
 
@@ -65,13 +73,15 @@ nav.horizontal li{
 
 /*Section Styles*/
 
-section.img{
+ul.row >li> img{
+   display:block;
    width: 50%;
    text-align: center;
    margin: 0, auto, 0, auto;
+   
 
 }
-section.p{
+body.p{
    width:70%;
    margin: 0, auto, 0, auto;
 
@@ -91,7 +101,13 @@ section.p{
 
 
 /* Customer Comment Styles */
-
+aside.comments{
+   width:75%;
+   padding-bottom: 30px;
+}
+comments> li::nth-last-of-type(odd){
+   justify-self: right;
+}
 
 
 /* Footer Styles */
