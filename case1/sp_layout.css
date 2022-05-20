@@ -63,6 +63,18 @@ nav.horizontal li{
    float: left;
 }
 
+/*Section Styles*/
+
+section.img{
+   width: 50%;
+   text-align: center;
+   margin: 0, auto, 0, auto;
+
+}
+section.p{
+   width:70%;
+   margin: 0, auto, 0, auto;
+
 }
 
 
