@@ -65,9 +65,14 @@ nav.horizontal li{
 
 /*Section Styles*/
 
-section > img{
+section.img{
    width: 50%;
    text-align: center;
+   margin: 0, auto, 0, auto;
+
+}
+section.p{
+   width:70%;
    margin: 0, auto, 0, auto;
 
 }
