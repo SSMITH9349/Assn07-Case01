@@ -102,17 +102,30 @@ ul#topics li img{
 }
 
 /* HR Styles */
+hr{
+   width:50%;
 
+}
 
 
 
 /* Customer Comment Styles */
-aside.comments{
+#commments{
    width:75%;
-   padding-bottom: 30px;
+   margin: 40px auto;
 }
-comments> li::nth-last-of-type(odd){
-   justify-self: right;
+#comments li {
+   display: block;
+   width: 50%;
+   float: left;
+   margin-bottom: 30px;
+}
+#comments li img{
+   display:block;
+   width:20%;
+   float: left;
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
 
